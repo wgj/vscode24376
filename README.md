@@ -16,3 +16,8 @@ Try to debug the resulting executable.
 Get error.
 </li>
 </ol>
+
+# Versions
+cpptools 0.10.0/0.11.0
+vscode 1.11.2
+osx 10.12.4
