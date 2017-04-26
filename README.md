@@ -18,6 +18,14 @@ Get error.
 </ol>
 
 # Versions
+<ul>
+<li>
 cpptools 0.10.0/0.11.0
+</li>
+<li>
 vscode 1.11.2
+</li>
+<li>
 osx 10.12.4
+</li>
+</ul>
