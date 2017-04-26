@@ -1,0 +1,60 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "sudoku",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceRoot}/sudoku",
+            "args": ["...1.5.68", "......7.1", "9.1....3.","..7.26...", "5.......3", "...87.4..", ".3....8.5", "1.5......", "79.4.1..."],
+            //"preLaunchTask": "build",
+            "stopAtEntry": false,
+            "cwd": "${fileDirname}",
+            "environment": [],
+            "externalConsole": true,
+            "osx": {
+                "MIMode": "lldb"
+            }
+        },
+        {
+            "name": "Test",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${fileDirname}/${fileBasenameNoExtension}_test",
+            //"args": ["string", "t", "w"],
+            "preLaunchTask": "build",
+            "stopAtEntry": false,
+            "cwd": "${fileDirname}",
+            "environment": [],
+            "externalConsole": false,
+            "osx": {
+                "MIMode": "lldb"
+            }
+        },
+        {
+            "name": "Current file",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${fileDirname}/${fileBasenameNoExtension}_test",
+            "args": [],
+            //"preLaunchTask": "build",
+            "stopAtEntry": false,
+            "cwd": "${fileDirname}",
+            "environment": [],
+            "externalConsole": false,
+            "osx": {
+                "MIMode": "lldb"
+            }
+        },
+        {
+            "name": "Attach",
+            "type": "cppdbg",
+            "request": "attach",
+            "program": "${fileDirname}/${fileBasenameNoExtension}",
+            "processId": "${command:pickProcess}",
+            "osx": {
+                "MIMode": "lldb"
+            }
+        }
+    ]
+}
