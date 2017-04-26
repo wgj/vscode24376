@@ -4,6 +4,9 @@ Workspace for the [VS Code issue 24376](https://github.com/Microsoft/vscode/issu
 # STR
 <ol>
 <li>
+Open `search_and_replace.c` as the active editor.
+</li>
+<li>
 Build project using <kbd>cmd</kbd>+<kbd>shift</kbd>+<kbd>b</kbd>
 </li>
 <li>
